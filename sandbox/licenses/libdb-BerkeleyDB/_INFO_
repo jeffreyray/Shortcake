@@ -1,0 +1,3 @@
+Package: db-5.3.21
+Sources: http://download.oracle.com/berkeley-db/db-5.3.21.tar.gz
+Homepage: http://www.oracle.com/technetwork/database/berkeleydb/downloads/index.html

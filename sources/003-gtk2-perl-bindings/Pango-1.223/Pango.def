@@ -1,0 +1,20 @@
+EXPORTS
+  newSVPangoRectangle
+  _newSVPangoRectangle = newSVPangoRectangle
+  SvPangoRectangle
+  _SvPangoRectangle = SvPangoRectangle
+  gtk2perl_pango_attribute_get_type
+  _gtk2perl_pango_attribute_get_type = gtk2perl_pango_attribute_get_type
+  gtk2perl_pango_attribute_register_custom_type
+  _gtk2perl_pango_attribute_register_custom_type = gtk2perl_pango_attribute_register_custom_type
+  gtk2perl_pango_attr_iterator_get_type
+  _gtk2perl_pango_attr_iterator_get_type = gtk2perl_pango_attr_iterator_get_type
+  gtk2perl_pango_layout_iter_get_type
+  _gtk2perl_pango_layout_iter_get_type = gtk2perl_pango_layout_iter_get_type
+  gtk2perl_pango_layout_line_get_type
+  _gtk2perl_pango_layout_line_get_type = gtk2perl_pango_layout_line_get_type
+  gtk2perl_pango_script_iter_get_type
+  _gtk2perl_pango_script_iter_get_type = gtk2perl_pango_script_iter_get_type
+  boot_Pango
+  _boot_Pango = boot_Pango
+  

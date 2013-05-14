@@ -1,0 +1,64 @@
+{
+   "abstract" : "Layout and render international text",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.57_05, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "unknown"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Pango",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ],
+      "file" : [
+         "xs/Pango.xs",
+         "xs/PangoAttributes.xs",
+         "xs/PangoContext.xs",
+         "xs/PangoFont.xs",
+         "xs/PangoFontset.xs",
+         "xs/PangoFontMap.xs",
+         "xs/PangoLayout.xs",
+         "xs/PangoRenderer.xs",
+         "xs/PangoScript.xs",
+         "xs/PangoTabs.xs",
+         "xs/PangoTypes.xs",
+         "xs/PangoCairo.xs",
+         "xs/PangoGravity.xs",
+         "xs/PangoMatrix.xs"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Cairo" : "1.000",
+            "ExtUtils::Depends" : "0.300",
+            "ExtUtils::MakeMaker" : "0",
+            "ExtUtils::PkgConfig" : "1.030",
+            "Glib" : "1.220"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Cairo" : "1.000",
+            "ExtUtils::Depends" : "0.300",
+            "ExtUtils::PkgConfig" : "1.030",
+            "Glib" : "1.220"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "1.223"
+}
